@@ -1,0 +1,28 @@
+/*[ STRUCTURE GÉNÉRALE DE LA PAGE ]*/
+/* ------------------------------------------------------------ */
+.interface {
+    position: relative;
+    background-color: var(--g-claire);
+}
+
+/*[ STRUCTURE DE LA ZONE DE CONTENU ]*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin: 0 auto; */
+    text-align: center;
+
+    & section{
+        width: 100%;
+        padding: 6rem 2rem;
+        & p{
+            line-height: 1.8rem;
+            font-size: 14px;
+            text-align: center;
+            
+        }
+    }
+}

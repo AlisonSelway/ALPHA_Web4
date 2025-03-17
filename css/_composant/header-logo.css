@@ -1,0 +1,15 @@
+/*[ COMPOSANT header-logo]*/
+/* ------------------------------------------------------------ */
+
+
+.figure{
+    position: relative;
+}
+
+.logo  {
+    /* border: solid red 2px; */
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width:  30%;
+}

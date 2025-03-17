@@ -1,0 +1,12 @@
+/*[ COMPOSANT header-image]*/
+/* ------------------------------------------------------------ */
+
+figure{
+    height: 740px;
+    width: 100%;
+
+}
+.header--img{
+    height: 100%;
+    object-fit: cover;
+}

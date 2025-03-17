@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alpha - Web4</title>
+</head>
+
+<body>
+    <div class="interface">
+        <header>
+
+            <!-- Bouton de l'ouverture du menu rétractable -->
+            <figure>
+                <img class="header--img" src="Assets/images/placeholder.png" alt="ImageCarroussel">
+                <img class="logo" src="Assets/images/Fichier 2.png" alt="Logo Rives Boréals">
+                <svg id='burger--menu' viewBox="0 0 100 80" width="40" height="40" onclick="openNav()">
+                    <rect width="100" height="20"></rect>
+                    <rect width="100" height="20" y="30"></rect>
+                    <rect width="100" height="20" y="60"></rect>
+                </svg>
+            </figure>
+            <!-- Panneau du menu rétractable -->
+            <nav id="nav--primary">
+
+                <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
+
+                <ul class="nav--liste">
+                    <li class="nav--element"> <a href="autrepage.html" onclick="redirection(event)">Mon premier
+                            choix</a> </li>
+                    <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Ma deuxième option</a>
+                    </li>
+                    <li class="nav--element"> <a href="#">Et ma dernière option</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="description">
+                <div>
+                    <p>Plongez au cœur des saveurs sauvages et raffinées du Grand Nord avec Les Rives Boréales, une ode
+                        gastronomique à la richesse de la nature boréale. Ici, chaque assiette raconte une histoire de
+                        forêts profondes, de lacs cristallins et de traditions ancestrales revisitées avec audace et
+                        finesse. Des viandes fumées aux baies cueillies à la main, en passant par les herbes aromatiques
+                        des sous-bois, notre cuisine met en lumière des ingrédients purs, authentiques et d'une
+                        fraîcheur inégalée. Laissez-vous séduire par une expérience sensorielle unique, où l’élégance
+                        rencontre la rusticité dans un cadre chaleureux et intemporel.
+                    </p>
+                </div>
+            </section>
+            <section class="pub-ouverture">
+                <div>
+                    <h1>Ouverture le 10 Juin!</h1>
+                    <p>Ne manquez pas l'évènement</p>
+                    <a class="btn-secondaire" href="#">En savoir plus</a>
+                </div>
+            </section>
+            <section class="menus-accueil">
+                <h3>Nos Menus</h2>
+                    <div class="menu-sections">
+                        <div class="Plats">
+                            <span class="img"></span>
+                            <div>
+                                <h3>Nos Plats</h3>
+                                <p>description-plats</p>
+                            </div>
+                            <a class="btn-secondaire" href="#">Y Aller ></a>
+                        </div>
+                        <div class="Plats">
+                            <span class="img"></span>
+                            <div>
+                                <h3>Cave À Vin</h3>
+                                <p>description-plats</p>
+                            </div>
+                            <a class="btn-secondaire" href="#">Y Aller ></a>
+                        </div>
+                    </div>
+            </section>
+            <section class="philosophie">
+                <img src="Assets/images/placeholder.png" alt="" class="1-1">
+                <div class="paragraphe">
+                    <h2>Notre Philosophie</h2>
+                    <p>Nous prônons une cuisine respectueuse des saisons et des produits du terroir, mettant en valeur
+                        les ressources naturelles de l’environnement boréal. Chaque plat raconte l’histoire de la nature
+                        québécoise, en mettant en avant des saveurs authentiques et parfois oubliées.</p>
+                </div>
+                <img src="Assets/images/placeholder.png" alt="" class="1-1">
+            </section>
+            <section class="reservation">
+                <h1>Réservez une table!</h1>
+                <a class="btn-secondaire" href="#">Réserver</a>
+            </section>
+
+            <section class="table">
+                <img src="Assets/images/placeholder.png" alt="" class="1-2">
+                <div class="paragraphe">
+                    <h1>Tables d'hôtes</h1>
+                    <p>
+                        Laissez-vous tenter par notre table d’hôte aux Rives Boréales : un menu raffiné, inspiré des
+                        saisons et du savoir-faire de notre chef. Saveurs délicates, produits frais et accords parfaits
+                        vous promettent une expérience gastronomique inoubliable. Réservez votre table dès maintenant!
+                    </p>
+
+                    <a class="btn-secondaire" href="#">Y Aller ></a>
+                </div>
+                <img src="Assets/images/placeholder.png" alt="" class="1-2">
+            </section>
+
+
+            <footer>
+                <section class="infolettre">
+                    <h1>Inscrivez-vous à l'infolettre</h1>
+
+                </section>
+                <div class="pied--page">
+                    <div class='conteneur logoconteneur'>
+                        <ul>
+                            <li><a href="#">1230, Rue des Bois Sauvages </br>
+                                    Québec, QC G1A 4T7</a></li>
+                            <li><a href="#">(418) 555-0198</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Nous Contacter</a></li>
+                        </ul>
+                        <img class="logo" src="Assets/images/Fichier 2.png" alt="Logo Rives Boréals">
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

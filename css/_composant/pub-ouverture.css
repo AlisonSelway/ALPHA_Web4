@@ -1,0 +1,24 @@
+.pub-ouverture p {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.pub-ouverture h1 {
+    font-size: 29px;
+    font-family: Wish, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    padding-top: 20px;
+    color: var(--glauque);
+    span{
+        font-size: 50px;
+    }
+}
+
+.pub-ouverture {
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.493);
+    padding: 4rem 0rem;
+    width: 100%;
+    margin: 2rem 0;
+}

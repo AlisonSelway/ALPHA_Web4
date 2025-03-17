@@ -1,0 +1,23 @@
+/*[ COMPOSANT NAV--BURGER ]*/
+/* ------------------------------------------------------------ */
+
+#burger--menu{
+    position: fixed;
+    left:36px;
+    top: 36px;
+    padding : 8px;
+    cursor: pointer;
+    
+    & rect{
+        transition: 0.5s;
+        fill: var(--g-fonce);
+        height: 10px;
+        width: 200px;
+        
+    }
+    &:hover{
+        & rect{
+            fill: black;
+        }
+    }
+}

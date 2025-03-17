@@ -1,0 +1,25 @@
+/* /////////////////////////////////////////////////////*/
+/*[ importation du dossier _base ]*/
+@import url('_base/variables.css');
+@import url('_base/reset.css');
+
+/*[ importation du dossier _composant ]*/
+@import url('_composant/nav-burger.css');
+@import url('_composant/nav-primary.css');
+@import url('_composant/nav-menu.css');
+@import url('_composant/nav-close.css');
+@import url('_composant/header-logo.css');
+@import url('_composant/header-image.css');
+@import url('_composant/description.css');
+@import url('_composant/pub-ouverture.css');
+@import url('_composant/btns.css');
+@import url('_composant/menus-accueil.css');
+@import url('_composant/images-philosophie.css');
+@import url('_composant/images-tableshote.css');
+@import url('_composant/pied-page.css');
+
+
+/*[ importation du dossier _layout ]*/
+@import url('_layout/structure.css');
+
+/* /////////////////////////////////////////////////////*/

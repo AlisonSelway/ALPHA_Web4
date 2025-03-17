@@ -1,0 +1,13 @@
+section.table {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.493);
+
+
+
+    p {
+        font-size: 10px;
+    }
+}

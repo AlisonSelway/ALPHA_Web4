@@ -1,0 +1,18 @@
+/*[ VARIABLES DU PROJET ]*/
+/* ------------------------------------------------------------ */
+:root{
+    /*[ COULEURS ]*/
+    --blanc:#fff;
+    --noir : #000;
+    --glauque: #649B88;
+    --g-claire:rgb(225, 252, 243);
+    --g-fonce: #69C1A3;
+}
+@font-face{
+    src: url(../../Assets/polices/MADE\ Mirage\ Regular\ PERSONAL\ USE.ttf);
+    font-family: Mirage;
+}
+@font-face {
+    font-family: Wish;
+    src: url(../../Assets/polices/HolidayFree.ttf);
+}

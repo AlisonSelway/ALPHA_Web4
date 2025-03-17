@@ -1,0 +1,16 @@
+.btn-secondaire {
+    width: 10em;
+    display: block;
+    font-size: 20px;
+    padding: 1rem 1rem;
+    margin: 20px auto;
+    border: solid black 2px;
+    border-radius: 50px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.281);
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.466);
+    cursor: pointer;
+    transition: .5s;
+    &:hover{
+        text-decoration: underline;
+    }
+}

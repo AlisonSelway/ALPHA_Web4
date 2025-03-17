@@ -1,0 +1,14 @@
+/*[ COMPOSANT NAV--CLOSE ]*/
+/* ------------------------------------------------------------ */
+
+#btn--close{
+    position: absolute;
+    top: 1.8rem;
+    right: 3.8rem;
+    font-size: 4rem;
+    color: #fff;
+    cursor: pointer;
+    &:hover{
+        color: #000000;
+    }  
+}
