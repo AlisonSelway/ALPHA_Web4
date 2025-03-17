@@ -1,0 +1,11 @@
+figure {
+    position: relative;
+}
+
+a.reserverPrincipal {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 20%;
+    background-color: var(--g-claire);
+}
