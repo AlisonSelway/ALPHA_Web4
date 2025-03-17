@@ -12,7 +12,7 @@ nav .nav--liste {
 
 /*[ Les éléments du menu principal - <li> ]*/
 .nav--liste .nav--element {
-    margin: 2rem 0;
+    margin: 20px 0;
     color: #ccc;
     text-align: center;
 
@@ -29,7 +29,7 @@ nav .nav--liste {
 /*[ Les liens du menu principal - <a> ]*/
 .nav--element a {
     display: block;
-    font-size: 2rem;
+    font-size: 25px;
     font-family: Mirage;
     color: #fff;
     transition: 0.3s;
